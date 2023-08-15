@@ -2,6 +2,7 @@
 
 This repository will be used to hold my solutions for the CS50x labs and problem sets.
 If you want to join the CS50x course as well, more info can be found on https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science
+Joined this course myself to see if it would strenghten my computer sience basics and make me a more well rounded professional. 
 
 ## progress
 * Week 0 Scratch ✅
