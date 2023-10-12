@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/cs50x.iml" filepath="$PROJECT_DIR$/.idea/cs50x.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cs50x2.iml" filepath="$PROJECT_DIR$/.idea/cs50x2.iml" />
     </modules>
   </component>
 </project>
