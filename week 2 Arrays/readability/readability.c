@@ -11,7 +11,8 @@ int main(void)
 {
 
 
-    char* text = get_string("Text: ");
+    char* text = get_string("Text: ")
+            ;
 
     int amountLetters = countLetters(text);
     int amountWords = countWords(text);
