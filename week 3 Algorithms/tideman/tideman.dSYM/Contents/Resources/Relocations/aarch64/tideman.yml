@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     tideman
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003530, symSize: 0x360 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _preferences, symBinAddr: 0x1000081C8, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0x7B, size: 0x8, addend: 0x0, symName: _locked, symBinAddr: 0x100008050, symSize: 0x0 }
+  - { offsetInCU: 0xA9, offset: 0xA9, size: 0x8, addend: 0x0, symName: _candidates, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0xDA, offset: 0xDA, size: 0x8, addend: 0x0, symName: _pairs, symBinAddr: 0x1000080A8, symSize: 0x0 }
+  - { offsetInCU: 0x123, offset: 0x123, size: 0x8, addend: 0x0, symName: _pair_count, symBinAddr: 0x1000080A4, symSize: 0x0 }
+  - { offsetInCU: 0x138, offset: 0x138, size: 0x8, addend: 0x0, symName: _candidate_count, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x141, offset: 0x141, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003530, symSize: 0x360 }
+  - { offsetInCU: 0x250, offset: 0x250, size: 0x8, addend: 0x0, symName: _vote, symObjAddr: 0x360, symBinAddr: 0x100003890, symSize: 0xC8 }
+  - { offsetInCU: 0x2B0, offset: 0x2B0, size: 0x8, addend: 0x0, symName: _record_preferences, symObjAddr: 0x428, symBinAddr: 0x100003958, symSize: 0xD0 }
+  - { offsetInCU: 0x30C, offset: 0x30C, size: 0x8, addend: 0x0, symName: _add_pairs, symObjAddr: 0x4F8, symBinAddr: 0x100003A28, symSize: 0x114 }
+  - { offsetInCU: 0x35A, offset: 0x35A, size: 0x8, addend: 0x0, symName: _sort_pairs, symObjAddr: 0x60C, symBinAddr: 0x100003B3C, symSize: 0x158 }
+  - { offsetInCU: 0x3C4, offset: 0x3C4, size: 0x8, addend: 0x0, symName: _lock_pairs, symObjAddr: 0x764, symBinAddr: 0x100003C94, symSize: 0x130 }
+  - { offsetInCU: 0x42E, offset: 0x42E, size: 0x8, addend: 0x0, symName: _print_winner, symObjAddr: 0x894, symBinAddr: 0x100003DC4, symSize: 0x120 }
+...
