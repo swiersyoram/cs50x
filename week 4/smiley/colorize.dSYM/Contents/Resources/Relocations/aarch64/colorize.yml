@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     colorize
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000026DC, symSize: 0x878 }
+  - { offsetInCU: 0x3A, offset: 0x3A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000026DC, symSize: 0x878 }
+  - { offsetInCU: 0x1E, offset: 0x501, size: 0x8, addend: 0x0, symName: _colorize, symObjAddr: 0x0, symBinAddr: 0x100002F54, symSize: 0xE3C }
+  - { offsetInCU: 0x2B, offset: 0x50E, size: 0x8, addend: 0x0, symName: _colorize, symObjAddr: 0x0, symBinAddr: 0x100002F54, symSize: 0xE3C }
+...
