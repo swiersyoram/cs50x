@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+            const checkAnswer = (answer) => {
+                if(answer === "d"){
+                document.getElementById(answer).style.backgroundColor = "green";
+                document.getElementById('validation').innerHTML = 'Correct!';
+                }
+                else{
+                document.getElementById(answer).style.backgroundColor = "red";
+                document.getElementById('validation').innerHTML = 'Incorrect!';
+                }
+            }
+
+            const submit = () => {
+                const inputField= document.getElementById('inputfield');
+                const value =  inputField.value;
+                const accepted = ["South America", "south america", "South america", "south America", "SOUTH AMERICA"]
+                if(accepted.includes(value) ){
+                document.getElementById('validation2').innerHTML = 'Correct!';
+                inputField.style.background = 'green';
+                }
+                else{
+                    document.getElementById('validation2').innerHTML = 'Incorrect!';
+                    inputField.style.background = 'red';
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Who won the 2022 world cup soccer?</h3>
+                <button onclick="checkAnswer('a')" id="a">a. Brazil</button>
+                <button onclick="checkAnswer('b')" id="b">b. Germany</button>
+                <button onclick="checkAnswer('c')" id="c">c. France</button>
+                <button onclick="checkAnswer('d')" id="d">d. Argentina</button>
+                <br>
+                <span id="validation"></span>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>In which continent is the winner located</h3>
+                <label>
+                    <input id="inputfield" />
+                </label>
+                <button onclick="submit()" type="submit">Submit</button>
+                <span id="validation2"></span>
+
+                <!-- TODO: Add free response question here -->
+            </div>
+        </div>
+    </body>
+</html>

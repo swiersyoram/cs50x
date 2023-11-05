@@ -1,0 +1,397 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(fonts/Montserrat/Montserrat-Regular.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "montserrat";
+    src: url(fonts/Montserrat/Montserrat-SemiBold.ttf);
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "montserrat";
+    src: url(fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: 200;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding:    0;
+    list-style: none;
+    text-decoration: none;
+    
+    
+}
+body{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+    width: 100%;
+  }
+
+/* hier begint de header css */
+header {
+    
+    font-family: roboto;
+    font-weight: 100;
+    background-color: rgb(18, 44, 63);
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 20px;
+    
+    
+
+}
+
+.logo_container {
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+.logo_container img  {
+    width: 300px;
+    
+}
+
+
+.menu_container {
+    width: 90%;
+   width: fit-content;
+   margin: 0 auto;
+  
+}
+
+
+.menu_container a { 
+    display: inline-block;
+    margin:5px ;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: fit-content;
+    text-align: right;
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 18px;
+    height: 100%;
+    color: whitesmoke;
+    
+}
+
+
+ 
+.button_container{
+    margin: 0 auto ;
+    width: fit-content;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+#button_header{
+    
+    padding: 10px;
+    font-family: roboto;
+    font-weight: 200;
+    font-size: 16px;
+    color:#002B4A ;
+    height: 80px;
+    width: 200px;
+    background-color: rgb(254, 193, 75);
+    
+    text-align: center;
+    
+
+    border-radius: 5px;
+}
+#button_header:hover{
+    opacity: 0.95;
+}
+ 
+.banner_container  {
+   
+    height: fit-content;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/banner.jpg);
+    
+
+}
+
+.banner_right {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    align-self: center;
+    
+    
+    box-shadow:inset 0 0 0 5000px rgba(0, 0, 0, 0.5);
+}
+.banner_right h1 {
+    width: 100%;
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 30px;
+    color: rgb(254, 193, 75);
+    
+    margin-top: 40px;
+
+}
+.banner_right h2 {
+    margin: 0 auto;
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 50px;
+    color: whitesmoke;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+    
+    
+    
+}
+/* hier begint de main css */
+.midsection {
+    
+      font-family: montserrat;
+      margin-bottom:80px ;
+    
+  }
+  .midsection h1{
+      margin-top: 60px;
+      font-size: 40px;
+      font-weight: 300;
+      color:#002B4A ;
+      text-align: center;
+  }
+  
+  #divider_row_one{
+    width: 300px;
+    border: 2px solid rgb(254, 193, 75);
+    margin: 0 auto;
+    margin-top:60px ;
+    margin-bottom: 60px;
+  }
+  .midsection h2{
+      text-align: center;
+      font-size: 18px;
+      font-weight: 100;
+      color:#002B4A ;
+      
+      width: 80%;
+      margin: 0 auto;
+  }
+
+.row_one {
+    
+    text-align: center;
+    width: 90%;
+    margin: 0 auto ;
+    margin-top: 100px;
+    }
+.row_one span {
+    font-size: 100px;
+    color:rgb(254, 193, 75) ;
+    
+    }
+
+    .row_one h3{
+    
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:#002B4A ;
+    }
+    
+    .row_one p{
+        width: 90%;
+        margin: 0 auto ;
+        color: #002B4A;
+        font-size: 18px;
+        font-weight: 100;
+        margin-bottom: 80px;
+       
+    }
+    .row_two {
+        width: 80%;
+        margin: 0 auto;
+        
+        text-align: center;
+        margin-top: 100px;
+        }
+        .row_two span {
+        font-size: 100px;
+        color:rgb(254, 193, 75) ;
+        
+        }
+        .row_two h3{
+        
+        font-weight: 200;
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color:#002B4A ;
+        }
+        .row_two div{
+        flex: 1;
+        
+        }
+        .row_two p{
+            
+            margin: 0 auto;
+            color: #002B4A;
+            font-size: 18px;
+            font-weight: 100;
+            
+            margin-bottom:80px ;
+        }
+
+  /* hier begint de footer css */
+footer
+{   
+    background-color: rgba(140, 79, 0, 0.70) ;
+}
+.container_footer {
+    margin: 0 auto ;
+    font-family: roboto;
+    color: whitesmoke;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo_social {
+   width: fit-content;
+    
+   margin: 0 auto;
+   
+   
+    
+
+}
+.logo_social img {
+    width: 300px;
+}
+
+.social_icons {
+    font-size: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+    color: whitesmoke;
+}
+.social_icons a {
+    color: whitesmoke;
+}
+
+
+
+
+
+
+.menu_footer{
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+
+.container_footer h3 {
+    font-size: 50px;
+    margin-bottom: 50px; 
+    font-weight: 100;
+    margin-top: 50px;
+}
+.menu_footer a {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom:10px ;
+    margin-top: 10px;
+    font-weight: 100;
+    color: whitesmoke
+}
+
+
+.stay_connected{
+    text-align: center;
+   width: fit-content;
+   margin: 0 auto;
+    font-weight: 100;
+}
+.stay_connected form{
+    
+    margin-top: 30px ;
+    
+}
+.stay_connected p {
+    font-size: 35px;
+    width: fit-content;
+    margin: 0 auto;
+}
+#form_footer{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 80px;
+   
+    width: 80%;
+    
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgba(140, 79, 0, 0.70);
+
+}
+#button_footer {
+    margin-top: 50px;
+    height: 100px;
+    width: 250px;
+    
+    font-family: roboto;
+    color: rgba(140, 79, 0, 0.70);
+    background-color: whitesmoke;
+    font-weight: 100;
+    font-size: 30px;
+    margin-bottom: 50px;
+    border: 0;
+    border-radius: 5px;
+}
+.get_in_touch{
+   
+    margin: 0 auto;
+    text-align: center;
+    
+    width: fit-content;
+    padding-bottom: 40px;
+}
+.get_in_touch p {
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 25px;
+    
+    
+}
